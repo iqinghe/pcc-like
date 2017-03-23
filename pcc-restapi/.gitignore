@@ -26,8 +26,3 @@ logs/
 .DS_Store
 Thumbs.db
 /target/
-
-# node
-/node/
-/node_modules/
-/etc/

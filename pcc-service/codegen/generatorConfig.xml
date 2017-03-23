@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+		<classPathEntry location="/Users/wallechen/git_rep/9courses/PCC/iqinghe/pcc-service/codegen/mysql-connector-java-5.1.35.jar" />
+		<context id="context1">
+				<jdbcConnection connectionURL="jdbc:mysql://localhost:3306/test?useUnicode=true&amp;characterEncoding=utf-8"
+						driverClass="com.mysql.jdbc.Driver" password="pcc123!@" userId="pcc" />
+				<javaModelGenerator targetPackage="cn.iqinghe.pcc.domaingen" targetProject="pcc-service" />
+				<sqlMapGenerator targetPackage="cn.iqinghe.pcc.dao" targetProject="pcc-service" />
+				<table schema="test" tableName="p_user">
+				</table>
+				<table schema="test" tableName="p_user_relation">
+				</table>
+				<table schema="test" tableName="b_feed">
+				</table>
+				<table schema="test" tableName="b_feed_like">
+				</table>
+		</context>
+</generatorConfiguration>
